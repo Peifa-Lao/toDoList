@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-nick:123@cluster0.kjkmm.mongodb.net/?retryWrites=true&w=majority/test", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-nick:<password>@cluster0.kjkmm.mongodb.net/?retryWrites=true&w=majority/test", {useNewUrlParser: true});
 
 //create a doc
 const itemsSchema = {
