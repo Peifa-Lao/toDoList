@@ -3,9 +3,13 @@ This application can allow users to insert or delete their items on today's list
 Second, the application also allow the user to custom their title by input https://pure-earth-31120.herokuapp.com/<customTitle> 
 
 Programming language: Javascript
+
 API: mongoose
+
 Framework: Node.js
+
 Library: Express, Ejs
+
 Database: MongoDB
 
 Demo link: https://pure-earth-31120.herokuapp.com
