@@ -65,6 +65,8 @@ const listSchema ={
 };
 const List = mongoose.model("List", listSchema);
 
+
+//creating custom lists using Express Route Parameter
 app.get("/:customListName", function(req, res){
 
   const customListName = _.capitalize(req.params.customListName);
